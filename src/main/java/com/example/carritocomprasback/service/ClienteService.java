@@ -43,4 +43,9 @@ public class ClienteService {
 		if(!Cliente.getNombre().isEmpty()) {ClienteActual.setNombre(Cliente.getNombre());}
 		return repository.save(ClienteActual);
 	}
+
+	public Cliente findClienteByMail(String mail) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
